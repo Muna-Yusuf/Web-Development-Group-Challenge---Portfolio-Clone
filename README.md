@@ -43,13 +43,6 @@ web-dev-group-portfolio/
 └── style.css
 ```
 
-## 📸 Screenshots
-
-1. ![Portfolio Screenshot](https://images.unsplash.com/photo-1593642532400-8c1e8e2e84e7)
-2. ![Portfolio Screenshot](https://images.unsplash.com/photo-1593642532400-8c1e8e2e84e7)
-3. ![Portfolio Screenshot](https://via.placeholder.com/600x400.png)
-
-
 # 📤 Submission
 - This repository was submitted as part of the **Web Development Group Challenge**.
 - The team members are listed above.
