@@ -281,7 +281,7 @@ body {
   gap: 30px;
 }
 
-.skills-top-img, .skills-bottom-img {
+.skills-top-img, .skills-bottom-img, .trends-image {
   width: 400px;
   height: auto;
   border-radius: 8px;
@@ -342,7 +342,7 @@ body {
 
 /* Services Section */
 .services-section {
-  background-color: #f9f9f9;
+  background-color: #ecf9f9;
   padding: 100px 0;
   text-align: center;
 }
@@ -353,9 +353,74 @@ body {
   margin-bottom: 50px;
 }
 
+.webdev-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  background-color:#ecf9f9;
+   padding: 0 15%; 
+  gap:40px;
+}
+.brand{
+  color:var(--accent-color);
+  margin-right:10px;
+}
+
+h1{
+  font-size:2rem;
+  text-align: center;
+}
+  
+.trends{
+  display: grid; 
+  grid-template-columns: repeat(2,1fr);
+  gap:20px
+}
+.metrics{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:5% 20%;
+  position:relative;
+}
+.result{
+  position:absolute;
+  top:-30px;
+  font-weight: bold;
+  font-size:x-large;
+}
+.trends-image{
+  text-align: center;
+}
+.footer-section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:5%;
+  margin:1% 20%;
+}
+ footer{
+  background-color: #00120c; 
+  color: #fff;
+  padding-top: 4%;
+} 
 
 
+.footer-section1{
+  /* background-color: rgb(55, 55, 133); */
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color:var(--dark-color);
 
+}
+.icons{
+  display: flex;
+  gap:50%;
+    justify-content: center; 
+    align-items: center; 
+}
 
 
 /* Responsive Styles */
