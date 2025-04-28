@@ -19,7 +19,7 @@ We recreated the given portfolio website using **HTML**, **CSS**, and **Bootstra
 
 ## 👥 Team Members
 1. Muna Yusuf Jimale
-2. Name 2
+2. Name Sithandekile Ndhlovu
 3. Name 3
 
 ## 🧠 Approach 
@@ -30,6 +30,8 @@ We recreated the given portfolio website using **HTML**, **CSS**, and **Bootstra
 ## 🚀 Features
 - Clean and structured codebase.
 - Organized asset management.
+
+--pexel images
 
 ## 📂 Folder Structure
 ```
