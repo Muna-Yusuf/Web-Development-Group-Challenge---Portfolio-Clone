@@ -92,6 +92,7 @@ body {
 .hero-content {
   color: white;
   padding-top: 80px;
+  text-align: left;
 }
 
 .profile-img {
@@ -109,6 +110,7 @@ body {
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.2;
+  text-align: left;
 }
 
 .hero-subtitle {
@@ -179,6 +181,7 @@ body {
 
 .bio-content {
   max-width: 600px;
+  text-align: left;
 }
 
 .bio-content h5 {
@@ -273,6 +276,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  text-align: left;
   gap: 60px;
 }
 
@@ -284,7 +288,7 @@ body {
 
 .skills-top-img,
 .skills-bottom-img,
-.trends-image {
+.trends-image{
   width: 400px;
   height: auto;
   border-radius: 8px;
@@ -344,7 +348,7 @@ body {
 
 /* Services Section */
 .services-section {
-  background-color: #ecf9f9;
+  background-color: #f9f9f9;
   padding: 100px 0;
   text-align: center;
 }
@@ -354,6 +358,59 @@ body {
   color: #222;
   margin-bottom: 50px;
 }
+
+.services-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #fff;
+  padding: 30px 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+
+.service-card h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.more-services {
+  margin-top: 40px;
+}
+
+.more-services a {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.more-services a:hover {
+  text-decoration: underline;
+}
+
+
 
 .webdev-container {
   display: flex;
@@ -369,9 +426,9 @@ body {
   margin-right: 10px;
 }
 
-h1 {
+.brand, .h2 {
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .trends {
@@ -379,6 +436,8 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+
+
 .metrics {
   display: flex;
   justify-content: space-between;
@@ -391,10 +450,13 @@ h1 {
   top: -30px;
   font-weight: bold;
   font-size: x-large;
+  text-align: left;
 }
 .trends-image {
   text-align: center;
 }
+
+
 .footer-section {
   display: flex;
   justify-content: center;
@@ -490,7 +552,7 @@ footer {
 /* General body styling */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin: 0;file:///C:/Users/%D9%8DStars/Desktop/web-dev-group-portfolio/assets/images/success4.jpg
   padding: 0;
   background-color: #d3d3d3;
   text-align: center;
@@ -502,7 +564,7 @@ h2 {
 }
 
 /* Grid container for images */
-.container {
+.container1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -515,7 +577,7 @@ h2 {
 }
 
 /* Styling for individual images */
-.container img {
+.container1 img {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -524,7 +586,7 @@ h2 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.container img:hover {
+.container1 img:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }

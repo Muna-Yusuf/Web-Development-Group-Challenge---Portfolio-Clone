@@ -24,7 +24,7 @@ We recreated the given portfolio website using **HTML**, **CSS**, and **Bootstra
 ## 👥 Team Members
 
 1. Muna Yusuf Jimale
-2. Name 2
+2. Sithandekile Ndhlovu
 3. Kokoette Asanganeng
 
 ## 🧠 Approach

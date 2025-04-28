@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Watson - Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> 
@@ -13,7 +14,7 @@
 <body>
   <!-- Navbar & Home Section -->
   <section class="hero-section">
-    <!-- Background Image with Overlay -->
+    <!-- Background Image -->
     <div class="hero-bg"></div>
     
     <!-- Navbar -->
@@ -37,7 +38,6 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#skills">My Skills</a></li>
-                <li><a class="dropdown-item" href="#about">About Me</a></li>
                 <li><a class="dropdown-item" href="#work">My Work</a></li>
               </ul>
             </li>
@@ -113,11 +113,35 @@
   
   <!-- Services Section -->
   <section id="services" class="services-section">
-  <div class="container">
+   <div class="container">
     <h2 class="services-heading">What I Do For You</h2>
+    
+    <div class="services-cards">
+      <div class="service-card">
+        <i class="bi bi-code-slash service-icon" style="font-size: 3rem; color: #17a589;"></i>
+        <h3>Web Development</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
+      </div>
+      
+      <div class="service-card">
+        <i class="bi bi-phone service-icon" style="font-size: 3rem; color: #17a589;"></i>
+        <h3>App Development</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
+      </div>
+      
+      <div class="service-card">
+        <i class="bi bi-camera service-icon" style="font-size: 3rem; color: #17a589;"></i>
+        <h3>Photography</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
+      </div>
+    </div>
 
+    <div class="more-services">
+      <a href="#more-services">More Services ➔</a>
+    </div>
   </div>
-  </section>
+</section>
+
 
   
   <!-- Skills Section -->
@@ -160,13 +184,14 @@
               <div class="skill-fill" style="width: 95%;"></div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-  </div>
-</section>
-<section>
+   </div>
+  </section>
+  
+  
+  <!-- Section -->
   <section>
     <div class="webdev-container">
       <div class='trends'>
@@ -199,15 +224,20 @@
         <img src="https://images.pexels.com/photos/31742036/pexels-photo-31742036/free-photo-of-artistic-black-and-white-double-exposure-portrait.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Trends Image">
       </div>
     </div>
-  <div class="metrics">
-  <p><span class="result">135</span>Finished Project</p>
-  <p><span class="result">225</span>Working Hours</p>
-  <p><span class="result" >115</span>Online Support</p>
-  <p><span class="result" >272</span>Happy Custoners</p>
-  </div>
-  <div>
+
+	<div class="metrics">
+	  <p><span class="result">135</span>Finished Project</p>
+	  <p><span class="result">225</span>Working Hours</p>
+      <p><span class="result" >115</span>Online Support</p>
+       <p><span class="result" >272</span>Happy Custoners</p>
+    </div>
+  </section>
+  
+  <!-- My Success Work Section -->
+  <section id="work">
+   <div>
     <h2>My Success Work</h2>
-    <div class="container">
+    <div class="container1">
       <img src="./assets/images/success2.jpg" alt="">
       <img src="./assets/images/PH2.png" alt="img" />
       <img src="./assets/images/PH4.jpg" alt="img" />
@@ -215,7 +245,10 @@
       <img src="./assets/images/PH6.png" alt="img" />
       <img src="./assets/images/success3.jpg" alt="img" />
     </div>
-  </div>
+   </div>
+  </section>
+  
+  
   <footer>
     <!-- <img src='assets/images/logo.png' alt='logo image ' class='logo-image'> -->
      <h1>UI Portifolio</h1>
